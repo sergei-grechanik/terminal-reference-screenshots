@@ -1,0 +1,1699 @@
+[
+    {
+        "name": "test_basics.text_printing",
+        "screenshots": [
+            {
+                "filename": "test_basics.text_printing/screenshot-0.png",
+                "index": 0,
+                "description": "Some text and all printable ascii characters. The text should be at the bottom of the screen."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_basics.text_colors",
+        "screenshots": [
+            {
+                "filename": "test_basics.text_colors/screenshot-0.png",
+                "index": 0,
+                "description": ""
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_basics.text_underline",
+        "screenshots": [
+            {
+                "filename": "test_basics.text_underline/screenshot-0.png",
+                "index": 0,
+                "description": ""
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.movecursor",
+        "screenshots": [
+            {
+                "filename": "test_placement.movecursor/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia logo. May be slightly stretched in kitty."
+            },
+            {
+                "filename": "test_placement.movecursor/screenshot-1.png",
+                "index": 1,
+                "description": "Wikipedia logo and some columns."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.movecursor_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.movecursor_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia logo. May be slightly stretched in kitty."
+            },
+            {
+                "filename": "test_placement.movecursor_placeholder/screenshot-1.png",
+                "index": 1,
+                "description": "Wikipedia logo and some columns."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.nomovecursor",
+        "screenshots": [
+            {
+                "filename": "test_placement.nomovecursor/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia logo (slightly stretched in kitty). The cursor should be at the top left corner."
+            },
+            {
+                "filename": "test_placement.nomovecursor/screenshot-1.png",
+                "index": 1,
+                "description": "Wikipedia logo and some columns. The cursor should be at the top left corner of the last column image."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.nomovecursor_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.nomovecursor_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia logo (slightly stretched in kitty). The cursor should be at the top left corner."
+            },
+            {
+                "filename": "test_placement.nomovecursor_placeholder/screenshot-1.png",
+                "index": 1,
+                "description": "Wikipedia logo and some columns. The cursor should be at the top left corner of the last column image."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.multisize",
+        "screenshots": [
+            {
+                "filename": "test_placement.multisize/screenshot-0.png",
+                "index": 0,
+                "description": "A grid of penguins of various sizes. On kitty they may be stretched."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.multisize_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.multisize_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "A grid of penguins of various sizes. On kitty they may be stretched."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.oob",
+        "screenshots": [
+            {
+                "filename": "test_placement.oob/screenshot-0.png",
+                "index": 0,
+                "description": "A ruler that goes off the screen. Not to scale."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.oob_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.oob_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "A ruler that goes off the screen. Not to scale."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.oob_down",
+        "screenshots": [
+            {
+                "filename": "test_placement.oob_down/screenshot-0.png",
+                "index": 0,
+                "description": "Three penguins, arranged diagonally. The top one is cut off."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.oob_down_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.oob_down_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Three penguins, arranged diagonally. The top one is cut off."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.oob_down_nomovecursor",
+        "screenshots": [
+            {
+                "filename": "test_placement.oob_down_nomovecursor/screenshot-0.png",
+                "index": 0,
+                "description": "Three penguins arranged vertically. The bottom one is cut off because the terminal shouldn't introduce new lines when C=1."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.oob_down_nomovecursor_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.oob_down_nomovecursor_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Three penguins arranged vertically. The bottom one is cut off because the terminal shouldn't introduce new lines when C=1."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.scrolling",
+        "screenshots": [
+            {
+                "filename": "test_placement.scrolling/screenshot-0.png",
+                "index": 0,
+                "description": "The initial state of the scrolling test: wiki logo and tux between two rows of small images and numbers"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-1.png",
+                "index": 1,
+                "description": "Scrolled down (moved the content down) 1 times"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-2.png",
+                "index": 2,
+                "description": "Scrolled down (moved the content down) 2 times"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-3.png",
+                "index": 3,
+                "description": "Scrolled down (moved the content down) 3 times"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-4.png",
+                "index": 4,
+                "description": "Scrolled up (moved the content up) 1 times"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-5.png",
+                "index": 5,
+                "description": "Scrolled up (moved the content up) 2 times"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-6.png",
+                "index": 6,
+                "description": "Scrolled up (moved the content up) 3 times"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-7.png",
+                "index": 7,
+                "description": "Scrolled up (moved the content up) 4 times"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-8.png",
+                "index": 8,
+                "description": "Scrolled up (moved the content up) 5 times"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-9.png",
+                "index": 9,
+                "description": "Scrolled up (moved the content up) 6 times"
+            },
+            {
+                "filename": "test_placement.scrolling/screenshot-10.png",
+                "index": 10,
+                "description": "Scrolled up 6 more lines"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.scrolling_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "The initial state of the scrolling test: wiki logo and tux between two rows of small images and numbers"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-1.png",
+                "index": 1,
+                "description": "Scrolled down (moved the content down) 1 times"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-2.png",
+                "index": 2,
+                "description": "Scrolled down (moved the content down) 2 times"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-3.png",
+                "index": 3,
+                "description": "Scrolled down (moved the content down) 3 times"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-4.png",
+                "index": 4,
+                "description": "Scrolled up (moved the content up) 1 times"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-5.png",
+                "index": 5,
+                "description": "Scrolled up (moved the content up) 2 times"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-6.png",
+                "index": 6,
+                "description": "Scrolled up (moved the content up) 3 times"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-7.png",
+                "index": 7,
+                "description": "Scrolled up (moved the content up) 4 times"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-8.png",
+                "index": 8,
+                "description": "Scrolled up (moved the content up) 5 times"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-9.png",
+                "index": 9,
+                "description": "Scrolled up (moved the content up) 6 times"
+            },
+            {
+                "filename": "test_placement.scrolling_placeholder/screenshot-10.png",
+                "index": 10,
+                "description": "Scrolled up 6 more lines"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.numbers",
+        "screenshots": [
+            {
+                "filename": "test_placement.numbers/screenshot-0.png",
+                "index": 0,
+                "description": "Screen filled with numbers. Each one is 3 columns wide."
+            },
+            {
+                "filename": "test_placement.numbers/screenshot-1.png",
+                "index": 1,
+                "description": "Screen filled with numbers. Each one is 4 columns wide."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.numbers_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.numbers_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Screen filled with numbers. Each one is 3 columns wide."
+            },
+            {
+                "filename": "test_placement.numbers_placeholder/screenshot-1.png",
+                "index": 1,
+                "description": "Screen filled with numbers. Each one is 4 columns wide."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.image_ids",
+        "screenshots": [
+            {
+                "filename": "test_placement.image_ids/screenshot-0.png",
+                "index": 0,
+                "description": "Images with different ids."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.image_ids_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.image_ids_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Images with different ids."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.placement_ids",
+        "screenshots": [
+            {
+                "filename": "test_placement.placement_ids/screenshot-0.png",
+                "index": 0,
+                "description": "Images with different ids and placement ids."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.placement_ids_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.placement_ids_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Images with different ids and placement ids."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.overwrite_with_spaces",
+        "screenshots": [
+            {
+                "filename": "test_placement.overwrite_with_spaces/screenshot-0.png",
+                "index": 0,
+                "description": "Dice with a square patch of red backround in the middle (underneath the image). The right 1/3 of the square is covered with green Xs. The Xs may behave differently in different terminals."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.overwrite_with_spaces_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_placement.overwrite_with_spaces_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Dice with a red square in the middle (hiding part of image). The right 1/3 of the square is covered with green Xs."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.no_id_no_number",
+        "screenshots": [
+            {
+                "filename": "test_placement.no_id_no_number/screenshot-0.png",
+                "index": 0,
+                "description": "Tux, wiki, and then dice on the next line."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.no_columns",
+        "screenshots": [
+            {
+                "filename": "test_placement.no_columns/screenshot-0.png",
+                "index": 0,
+                "description": "Small arrow, wiki, and dice. 7 rows each, the number of columns is inferred"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.no_rows",
+        "screenshots": [
+            {
+                "filename": "test_placement.no_rows/screenshot-0.png",
+                "index": 0,
+                "description": "Dice, wiki, and small arrow. 20 columns each, the number of rows is inferred"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.no_size",
+        "screenshots": [
+            {
+                "filename": "test_placement.no_size/screenshot-0.png",
+                "index": 0,
+                "description": "Text boxes, the number of rows/columns is inferred"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.subimage",
+        "screenshots": [
+            {
+                "filename": "test_placement.subimage/screenshot-0.png",
+                "index": 0,
+                "description": "Same subimage of wikipedia, different sizes"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.subimage_no_size",
+        "screenshots": [
+            {
+                "filename": "test_placement.subimage_no_size/screenshot-0.png",
+                "index": 0,
+                "description": "Same subimage of wikipedia, different sizes"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.subimage_slice_horizontally",
+        "screenshots": [
+            {
+                "filename": "test_placement.subimage_slice_horizontally/screenshot-0.png",
+                "index": 0,
+                "description": "An image sliced horizontally, may be stretched, but without gaps"
+            },
+            {
+                "filename": "test_placement.subimage_slice_horizontally/screenshot-1.png",
+                "index": 1,
+                "description": "An image sliced horizontally, may be stretched, but without gaps"
+            },
+            {
+                "filename": "test_placement.subimage_slice_horizontally/screenshot-2.png",
+                "index": 2,
+                "description": "An image sliced horizontally, may be stretched, but without gaps"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.subimage_slice_vertically",
+        "screenshots": [
+            {
+                "filename": "test_placement.subimage_slice_vertically/screenshot-0.png",
+                "index": 0,
+                "description": "An image sliced vertically, may be stretched, but without gaps"
+            },
+            {
+                "filename": "test_placement.subimage_slice_vertically/screenshot-1.png",
+                "index": 1,
+                "description": "An image sliced vertically, may be stretched, but without gaps"
+            },
+            {
+                "filename": "test_placement.subimage_slice_vertically/screenshot-2.png",
+                "index": 2,
+                "description": "An image sliced vertically, may be stretched, but without gaps"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.subimage_oob",
+        "screenshots": [
+            {
+                "filename": "test_placement.subimage_oob/screenshot-0.png",
+                "index": 0,
+                "description": "Small arrow, subimage, w and h are way out of bounds, but we expect them to be truncated and there will not be much empty space"
+            },
+            {
+                "filename": "test_placement.subimage_oob/screenshot-1.png",
+                "index": 1,
+                "description": "Small arrow, subimage, w and h are way out of bounds. rows and columns are explicitly specified, the behavior is the same"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.subimage_thin",
+        "screenshots": [
+            {
+                "filename": "test_placement.subimage_thin/screenshot-0.png",
+                "index": 0,
+                "description": "A very thin vertical slice of wiki repeated 3 times. Note the alignment."
+            },
+            {
+                "filename": "test_placement.subimage_thin/screenshot-1.png",
+                "index": 1,
+                "description": "A very thin vertical slice of wiki repeated 3 times. Note the alignment."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.subimage_oob_xy",
+        "screenshots": [
+            {
+                "filename": "test_placement.subimage_oob_xy/screenshot-0.png",
+                "index": 0,
+                "description": "Both x and y are oob. Most probably the image will be empty, but most importantly the terminal shouldn't crash or hang."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.subimage_negative_xy",
+        "screenshots": [
+            {
+                "filename": "test_placement.subimage_negative_xy/screenshot-0.png",
+                "index": 0,
+                "description": "Both x and y are negative. The image may be empty or just the image without additional margins, but most importantly the terminal shouldn't crash or hang."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.subimage_negative_wh",
+        "screenshots": [
+            {
+                "filename": "test_placement.subimage_negative_wh/screenshot-0.png",
+                "index": 0,
+                "description": "Both w and h are negative. The image may be empty or display some part of the image, but most importantly the terminal shouldn't crash or hang."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placement.alpha",
+        "screenshots": [
+            {
+                "filename": "test_placement.alpha/screenshot-0.png",
+                "index": 0,
+                "description": "Rainbow background and a gradient going from transparent to solid, color (0, 0, 0)"
+            },
+            {
+                "filename": "test_placement.alpha/screenshot-1.png",
+                "index": 1,
+                "description": "Rainbow background and a gradient going from transparent to solid, color (255, 255, 255)"
+            },
+            {
+                "filename": "test_placement.alpha/screenshot-2.png",
+                "index": 2,
+                "description": "Rainbow background and a gradient going from transparent to solid, color (255, 0, 0)"
+            },
+            {
+                "filename": "test_placement.alpha/screenshot-3.png",
+                "index": 3,
+                "description": "Rainbow background and a gradient going from transparent to solid, color (0, 255, 0)"
+            },
+            {
+                "filename": "test_placement.alpha/screenshot-4.png",
+                "index": 4,
+                "description": "Rainbow background and a gradient going from transparent to solid, color (0, 0, 255)"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.tempfile_png",
+        "screenshots": [
+            {
+                "filename": "test_uploading.tempfile_png/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia logo, temporary file uploading."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_png",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_png/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia logo, direct uploading."
+            },
+            {
+                "filename": "test_uploading.direct_png/screenshot-1.png",
+                "index": 1,
+                "description": "Wiki and tux, direct uploading."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_jpeg",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_jpeg/screenshot-0.png",
+                "index": 0,
+                "description": "Castle jpeg, direct uploading."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_random_png",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_random_png/screenshot-0.png",
+                "index": 0,
+                "description": "Random < 1K image, direct uploading."
+            },
+            {
+                "filename": "test_uploading.direct_random_png/screenshot-1.png",
+                "index": 1,
+                "description": "Random big image, direct uploading."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_rgb",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_rgb/screenshot-0.png",
+                "index": 0,
+                "description": "Tux and wiki, direct transmission, 24-bit data, compress = False"
+            },
+            {
+                "filename": "test_uploading.direct_rgb/screenshot-1.png",
+                "index": 1,
+                "description": "Tux and wiki, direct transmission, 32-bit data, compress = False"
+            },
+            {
+                "filename": "test_uploading.direct_rgb/screenshot-2.png",
+                "index": 2,
+                "description": "Tux and wiki, direct transmission, 24-bit data, compress = True"
+            },
+            {
+                "filename": "test_uploading.direct_rgb/screenshot-3.png",
+                "index": 3,
+                "description": "Tux and wiki, direct transmission, 32-bit data, compress = True"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.shm_png",
+        "screenshots": [
+            {
+                "filename": "test_uploading.shm_png/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia, png via shared memory"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_default",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_default/screenshot-0.png",
+                "index": 0,
+                "description": "Tux and wiki, default transmission (direct, 32-bit data)"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_default_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_default_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Tux and wiki, default transmission (direct, 32-bit data)"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.shm_rgb",
+        "screenshots": [
+            {
+                "filename": "test_uploading.shm_rgb/screenshot-0.png",
+                "index": 0,
+                "description": "Tux, shared memory, 24-bit data, compress = False"
+            },
+            {
+                "filename": "test_uploading.shm_rgb/screenshot-1.png",
+                "index": 1,
+                "description": "Tux, shared memory, 32-bit data, compress = False"
+            },
+            {
+                "filename": "test_uploading.shm_rgb/screenshot-2.png",
+                "index": 2,
+                "description": "Tux, shared memory, 24-bit data, compress = True"
+            },
+            {
+                "filename": "test_uploading.shm_rgb/screenshot-3.png",
+                "index": 3,
+                "description": "Tux, shared memory, 32-bit data, compress = True"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.shm_rgb",
+        "screenshots": [
+            {
+                "filename": "test_uploading.shm_rgb/screenshot-0.png",
+                "index": 0,
+                "description": "Tux, shared memory, 24-bit data, compress = False"
+            },
+            {
+                "filename": "test_uploading.shm_rgb/screenshot-1.png",
+                "index": 1,
+                "description": "Tux, shared memory, 32-bit data, compress = False"
+            },
+            {
+                "filename": "test_uploading.shm_rgb/screenshot-2.png",
+                "index": 2,
+                "description": "Tux, shared memory, 24-bit data, compress = True"
+            },
+            {
+                "filename": "test_uploading.shm_rgb/screenshot-3.png",
+                "index": 3,
+                "description": "Tux, shared memory, 32-bit data, compress = True"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.image_number",
+        "screenshots": [
+            {
+                "filename": "test_uploading.image_number/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia logo, sent with an image number, combined transmit-and-put command."
+            },
+            {
+                "filename": "test_uploading.image_number/screenshot-1.png",
+                "index": 1,
+                "description": "Tux, sent with an image number, separate transmit and put."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.image_number_multiple",
+        "screenshots": [
+            {
+                "filename": "test_uploading.image_number_multiple/screenshot-0.png",
+                "index": 0,
+                "description": "Dice, wiki, tux, dice again, sent with image numbers, separate transmit and put commands."
+            },
+            {
+                "filename": "test_uploading.image_number_multiple/screenshot-1.png",
+                "index": 1,
+                "description": "Line, wiki, tux, dice, sent with image numbers, separate transmit and put commands."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.stress_many_small_images",
+        "screenshots": [
+            {
+                "filename": "test_uploading.stress_many_small_images/screenshot-0.png",
+                "index": 0,
+                "description": "Many one-cell images of numbers"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.stress_many_small_images_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_uploading.stress_many_small_images_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Many one-cell images of numbers"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.stress_large_images",
+        "screenshots": [
+            {
+                "filename": "test_uploading.stress_large_images/screenshot-0.png",
+                "index": 0,
+                "description": "Large images (40 ~grey rectangles). We expect to see all of them."
+            },
+            {
+                "filename": "test_uploading.stress_large_images/screenshot-1.png",
+                "index": 1,
+                "description": "Redisplayed large images. We expect that some of them are missing."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.stress_large_images_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_uploading.stress_large_images_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Large images (40 ~grey rectangles). We expect to see all of them."
+            },
+            {
+                "filename": "test_uploading.stress_large_images_placeholder/screenshot-1.png",
+                "index": 1,
+                "description": "Redisplayed large images. We expect that some of them are missing."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.stress_too_many_images",
+        "screenshots": [
+            {
+                "filename": "test_uploading.stress_too_many_images/screenshot-0.png",
+                "index": 0,
+                "description": "Uploaded many one-pixel images"
+            },
+            {
+                "filename": "test_uploading.stress_too_many_images/screenshot-1.png",
+                "index": 1,
+                "description": "Displayed some one-pixel images, some will be missing."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.stress_too_many_images_placeholder",
+        "screenshots": [
+            {
+                "filename": "test_uploading.stress_too_many_images_placeholder/screenshot-0.png",
+                "index": 0,
+                "description": "Uploaded many one-pixel images"
+            },
+            {
+                "filename": "test_uploading.stress_too_many_images_placeholder/screenshot-1.png",
+                "index": 1,
+                "description": "Displayed some one-pixel images, some will be missing."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.stress_too_many_placements",
+        "screenshots": [
+            {
+                "filename": "test_uploading.stress_too_many_placements/screenshot-0.png",
+                "index": 0,
+                "description": "Attempting to display 5 different placements for some of the images. Many placements may be missing."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_interrupted",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_interrupted/screenshot-0.png",
+                "index": 0,
+                "description": "After sending half of the commands and the deletion command."
+            },
+            {
+                "filename": "test_uploading.direct_interrupted/screenshot-1.png",
+                "index": 1,
+                "description": "After sending all of the commands. Tux should be seen."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_interrupted_nomore",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_interrupted_nomore/screenshot-0.png",
+                "index": 0,
+                "description": "After sending half of the commands and the m=0."
+            },
+            {
+                "filename": "test_uploading.direct_interrupted_nomore/screenshot-1.png",
+                "index": 1,
+                "description": "After sending all of the commands. Tux should be seen."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.ok_transmit",
+        "screenshots": [
+            {
+                "filename": "test_response.ok_transmit/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.ok_direct_transmit",
+        "screenshots": [
+            {
+                "filename": "test_response.ok_direct_transmit/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.ok_put",
+        "screenshots": [
+            {
+                "filename": "test_response.ok_put/screenshot-0.png",
+                "index": 0,
+                "description": "Ok responses"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.ok_put_fixed_placement_id",
+        "screenshots": [
+            {
+                "filename": "test_response.ok_put_fixed_placement_id/screenshot-0.png",
+                "index": 0,
+                "description": "Ok responses"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.ok_direct_transmit_and_put",
+        "screenshots": [
+            {
+                "filename": "test_response.ok_direct_transmit_and_put/screenshot-0.png",
+                "index": 0,
+                "description": "No image here yet"
+            },
+            {
+                "filename": "test_response.ok_direct_transmit_and_put/screenshot-1.png",
+                "index": 1,
+                "description": "Wikipedia logo."
+            },
+            {
+                "filename": "test_response.ok_direct_transmit_and_put/screenshot-2.png",
+                "index": 2,
+                "description": "No image here yet"
+            },
+            {
+                "filename": "test_response.ok_direct_transmit_and_put/screenshot-3.png",
+                "index": 3,
+                "description": "Tux."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.ok_direct_transmit_and_put_fixed_placement_id",
+        "screenshots": [
+            {
+                "filename": "test_response.ok_direct_transmit_and_put_fixed_placement_id/screenshot-0.png",
+                "index": 0,
+                "description": "No image here yet"
+            },
+            {
+                "filename": "test_response.ok_direct_transmit_and_put_fixed_placement_id/screenshot-1.png",
+                "index": 1,
+                "description": "Wikipedia logo."
+            },
+            {
+                "filename": "test_response.ok_direct_transmit_and_put_fixed_placement_id/screenshot-2.png",
+                "index": 2,
+                "description": "No image here yet"
+            },
+            {
+                "filename": "test_response.ok_direct_transmit_and_put_fixed_placement_id/screenshot-3.png",
+                "index": 3,
+                "description": "Tux."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.ok_two_responses",
+        "screenshots": [
+            {
+                "filename": "test_response.ok_two_responses/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.error_transmit",
+        "screenshots": [
+            {
+                "filename": "test_response.error_transmit/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.error_transmit_urandom",
+        "screenshots": [
+            {
+                "filename": "test_response.error_transmit_urandom/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.error_transmit_and_put",
+        "screenshots": [
+            {
+                "filename": "test_response.error_transmit_and_put/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.error_transmit_and_put_fixed_placement_id",
+        "screenshots": [
+            {
+                "filename": "test_response.error_transmit_and_put_fixed_placement_id/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.error_direct_transmit",
+        "screenshots": [
+            {
+                "filename": "test_response.error_direct_transmit/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            },
+            {
+                "filename": "test_response.error_direct_transmit/screenshot-1.png",
+                "index": 1,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.error_direct_transmit_and_put",
+        "screenshots": [
+            {
+                "filename": "test_response.error_direct_transmit_and_put/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            },
+            {
+                "filename": "test_response.error_direct_transmit_and_put/screenshot-1.png",
+                "index": 1,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.error_direct_transmit_and_put_fixed_placement_id",
+        "screenshots": [
+            {
+                "filename": "test_response.error_direct_transmit_and_put_fixed_placement_id/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            },
+            {
+                "filename": "test_response.error_direct_transmit_and_put_fixed_placement_id/screenshot-1.png",
+                "index": 1,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.error_syntax_no_response",
+        "screenshots": [
+            {
+                "filename": "test_response.error_syntax_no_response/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.error_syntax_image_id",
+        "screenshots": [
+            {
+                "filename": "test_response.error_syntax_image_id/screenshot-0.png",
+                "index": 0,
+                "description": "No assertion failures"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_response.stress_too_many_responses",
+        "screenshots": [
+            {
+                "filename": "test_response.stress_too_many_responses/screenshot-0.png",
+                "index": 0,
+                "description": "Generated lots of responses and received them."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_deletion.image_with_data",
+        "screenshots": [
+            {
+                "filename": "test_deletion.image_with_data/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia image."
+            },
+            {
+                "filename": "test_deletion.image_with_data/screenshot-1.png",
+                "index": 1,
+                "description": "Deleted the image."
+            },
+            {
+                "filename": "test_deletion.image_with_data/screenshot-2.png",
+                "index": 2,
+                "description": "ENOENT response, no assertion failures."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_deletion.image_preserve_data",
+        "screenshots": [
+            {
+                "filename": "test_deletion.image_preserve_data/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia image."
+            },
+            {
+                "filename": "test_deletion.image_preserve_data/screenshot-1.png",
+                "index": 1,
+                "description": "Deleted the image."
+            },
+            {
+                "filename": "test_deletion.image_preserve_data/screenshot-2.png",
+                "index": 2,
+                "description": "Recreated the image."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_deletion.image_with_data_two_placements",
+        "screenshots": [
+            {
+                "filename": "test_deletion.image_with_data_two_placements/screenshot-0.png",
+                "index": 0,
+                "description": "Two wikipedia images."
+            },
+            {
+                "filename": "test_deletion.image_with_data_two_placements/screenshot-1.png",
+                "index": 1,
+                "description": "Deleted the left image."
+            },
+            {
+                "filename": "test_deletion.image_with_data_two_placements/screenshot-2.png",
+                "index": 2,
+                "description": "Created another placement with the same id."
+            },
+            {
+                "filename": "test_deletion.image_with_data_two_placements/screenshot-3.png",
+                "index": 3,
+                "description": "Deleted both placements."
+            },
+            {
+                "filename": "test_deletion.image_with_data_two_placements/screenshot-4.png",
+                "index": 4,
+                "description": "ENOENT response, no assertion failures."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_deletion.image_by_number",
+        "screenshots": [
+            {
+                "filename": "test_deletion.image_by_number/screenshot-0.png",
+                "index": 0,
+                "description": "Three images."
+            },
+            {
+                "filename": "test_deletion.image_by_number/screenshot-1.png",
+                "index": 1,
+                "description": "Deleted the rightmost image."
+            },
+            {
+                "filename": "test_deletion.image_by_number/screenshot-2.png",
+                "index": 2,
+                "description": "The rightmost and leftmost images are deleted."
+            },
+            {
+                "filename": "test_deletion.image_by_number/screenshot-3.png",
+                "index": 3,
+                "description": "Created another tux."
+            },
+            {
+                "filename": "test_deletion.image_by_number/screenshot-4.png",
+                "index": 4,
+                "description": "Deleted everything."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_deletion.image_by_number_direct_transmission",
+        "screenshots": [
+            {
+                "filename": "test_deletion.image_by_number_direct_transmission/screenshot-0.png",
+                "index": 0,
+                "description": "Three images."
+            },
+            {
+                "filename": "test_deletion.image_by_number_direct_transmission/screenshot-1.png",
+                "index": 1,
+                "description": "Deleted the rightmost image."
+            },
+            {
+                "filename": "test_deletion.image_by_number_direct_transmission/screenshot-2.png",
+                "index": 2,
+                "description": "The rightmost and leftmost images are deleted."
+            },
+            {
+                "filename": "test_deletion.image_by_number_direct_transmission/screenshot-3.png",
+                "index": 3,
+                "description": "Created another tux."
+            },
+            {
+                "filename": "test_deletion.image_by_number_direct_transmission/screenshot-4.png",
+                "index": 4,
+                "description": "Deleted everything."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_deletion.everything",
+        "screenshots": [
+            {
+                "filename": "test_deletion.everything/screenshot-0.png",
+                "index": 0,
+                "description": "Wiki, tux, dice, then tux using placeholders"
+            },
+            {
+                "filename": "test_deletion.everything/screenshot-1.png",
+                "index": 1,
+                "description": "Deleted all images except for the placeholder."
+            },
+            {
+                "filename": "test_deletion.everything/screenshot-2.png",
+                "index": 2,
+                "description": "Two tuxes."
+            },
+            {
+                "filename": "test_deletion.everything/screenshot-3.png",
+                "index": 3,
+                "description": "ENOENT response, no assertion failures."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_deletion.underneath_text_restoration",
+        "screenshots": [
+            {
+                "filename": "test_deletion.underneath_text_restoration/screenshot-0.png",
+                "index": 0,
+                "description": "Just two placeholder images and some text."
+            },
+            {
+                "filename": "test_deletion.underneath_text_restoration/screenshot-1.png",
+                "index": 1,
+                "description": "Classic placements over placeholders."
+            },
+            {
+                "filename": "test_deletion.underneath_text_restoration/screenshot-2.png",
+                "index": 2,
+                "description": "Deleted one wiki on the left and one on the right."
+            },
+            {
+                "filename": "test_deletion.underneath_text_restoration/screenshot-3.png",
+                "index": 3,
+                "description": "Deleted all tuxes."
+            },
+            {
+                "filename": "test_deletion.underneath_text_restoration/screenshot-4.png",
+                "index": 4,
+                "description": "Deleted all classic placements."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placeholder.image_ids",
+        "screenshots": [
+            {
+                "filename": "test_placeholder.image_ids/screenshot-0.png",
+                "index": 0,
+                "description": "Image ids we are going to use."
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-1.png",
+                "index": 1,
+                "description": "First ROW other NONE"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-2.png",
+                "index": 2,
+                "description": "First ROW other ROW"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-3.png",
+                "index": 3,
+                "description": "First ROW other ROW_COLUMN"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-4.png",
+                "index": 4,
+                "description": "First ROW other ROW_COLUMN_ID4THBYTE"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-5.png",
+                "index": 5,
+                "description": "First ROW other ROW_COLUMN_ID4THBYTE_IF_NONZERO"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-6.png",
+                "index": 6,
+                "description": "First ROW_COLUMN other NONE"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-7.png",
+                "index": 7,
+                "description": "First ROW_COLUMN other ROW"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-8.png",
+                "index": 8,
+                "description": "First ROW_COLUMN other ROW_COLUMN"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-9.png",
+                "index": 9,
+                "description": "First ROW_COLUMN other ROW_COLUMN_ID4THBYTE"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-10.png",
+                "index": 10,
+                "description": "First ROW_COLUMN other ROW_COLUMN_ID4THBYTE_IF_NONZERO"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-11.png",
+                "index": 11,
+                "description": "First ROW_COLUMN_ID4THBYTE other NONE"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-12.png",
+                "index": 12,
+                "description": "First ROW_COLUMN_ID4THBYTE other ROW"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-13.png",
+                "index": 13,
+                "description": "First ROW_COLUMN_ID4THBYTE other ROW_COLUMN"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-14.png",
+                "index": 14,
+                "description": "First ROW_COLUMN_ID4THBYTE other ROW_COLUMN_ID4THBYTE"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-15.png",
+                "index": 15,
+                "description": "First ROW_COLUMN_ID4THBYTE other ROW_COLUMN_ID4THBYTE_IF_NONZERO"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-16.png",
+                "index": 16,
+                "description": "First ROW_COLUMN_ID4THBYTE_IF_NONZERO other NONE"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-17.png",
+                "index": 17,
+                "description": "First ROW_COLUMN_ID4THBYTE_IF_NONZERO other ROW"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-18.png",
+                "index": 18,
+                "description": "First ROW_COLUMN_ID4THBYTE_IF_NONZERO other ROW_COLUMN"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-19.png",
+                "index": 19,
+                "description": "First ROW_COLUMN_ID4THBYTE_IF_NONZERO other ROW_COLUMN_ID4THBYTE"
+            },
+            {
+                "filename": "test_placeholder.image_ids/screenshot-20.png",
+                "index": 20,
+                "description": "First ROW_COLUMN_ID4THBYTE_IF_NONZERO other ROW_COLUMN_ID4THBYTE_IF_NONZERO"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placeholder.full_width",
+        "screenshots": [
+            {
+                "filename": "test_placeholder.full_width/screenshot-0.png",
+                "index": 0,
+                "description": "Full-width rulers, image id = 0x00123456"
+            },
+            {
+                "filename": "test_placeholder.full_width/screenshot-1.png",
+                "index": 1,
+                "description": "Full-width rulers, image id = 0x12345678"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placeholder.vertical_stripes",
+        "screenshots": [
+            {
+                "filename": "test_placeholder.vertical_stripes/screenshot-0.png",
+                "index": 0,
+                "description": "Full-width rulers on a striped background, image id = 0x00123456"
+            },
+            {
+                "filename": "test_placeholder.vertical_stripes/screenshot-1.png",
+                "index": 1,
+                "description": "Rulers with a column. The column may break the rulers on some terminals."
+            },
+            {
+                "filename": "test_placeholder.vertical_stripes/screenshot-2.png",
+                "index": 2,
+                "description": "Full-width rulers on a striped background, image id = 0x12345678"
+            },
+            {
+                "filename": "test_placeholder.vertical_stripes/screenshot-3.png",
+                "index": 3,
+                "description": "Rulers with a column. The column may break the rulers on some terminals."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placeholder.max_columns",
+        "screenshots": [
+            {
+                "filename": "test_placeholder.max_columns/screenshot-0.png",
+                "index": 0,
+                "description": "Long image containing numbers, only the leftmost (~0-19) and rightmost (~109-121) parts are shown , image id = 0x00123456."
+            },
+            {
+                "filename": "test_placeholder.max_columns/screenshot-1.png",
+                "index": 1,
+                "description": "Long image containing numbers, only the leftmost (~0-19) and rightmost (~109-121) parts are shown , image id = 0x12345678."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_placeholder.max_rows",
+        "screenshots": [
+            {
+                "filename": "test_placeholder.max_rows/screenshot-0.png",
+                "index": 0,
+                "description": "Tall image containing numbers, only the top (~0-4) and the bottom (~143-147) parts are shown, image id = 0x00123456."
+            },
+            {
+                "filename": "test_placeholder.max_rows/screenshot-1.png",
+                "index": 1,
+                "description": "All parts of the tall image, image id = 0x00123456. Columns are slightly cropped"
+            },
+            {
+                "filename": "test_placeholder.max_rows/screenshot-2.png",
+                "index": 2,
+                "description": "Tall image containing numbers, only the top (~0-4) and the bottom (~143-147) parts are shown, image id = 0x12345678."
+            },
+            {
+                "filename": "test_placeholder.max_rows/screenshot-3.png",
+                "index": 3,
+                "description": "All parts of the tall image, image id = 0x12345678. Columns are slightly cropped"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_tupimage_terminal.upload_and_display_from_file",
+        "screenshots": [
+            {
+                "filename": "test_tupimage_terminal.upload_and_display_from_file/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedias and tuxes, using different ID settings, method=file"
+            },
+            {
+                "filename": "test_tupimage_terminal.upload_and_display_from_file/screenshot-1.png",
+                "index": 1,
+                "description": "Wikipedias and tuxes, using different ID settings, method=direct"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_tupimage_terminal.upload_and_display_from_image",
+        "screenshots": [
+            {
+                "filename": "test_tupimage_terminal.upload_and_display_from_image/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedias and tuxes flipped, using different ID settings, method=file"
+            },
+            {
+                "filename": "test_tupimage_terminal.upload_and_display_from_image/screenshot-1.png",
+                "index": 1,
+                "description": "Wikipedias and tuxes flipped, using different ID settings, method=direct"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_tupimage_terminal.upload_and_display_jpeg",
+        "screenshots": [
+            {
+                "filename": "test_tupimage_terminal.upload_and_display_jpeg/screenshot-0.png",
+                "index": 0,
+                "description": "Jpeg castles using different ID settings, method=file"
+            },
+            {
+                "filename": "test_tupimage_terminal.upload_and_display_jpeg/screenshot-1.png",
+                "index": 1,
+                "description": "Jpeg castles using different ID settings, method=direct"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_tupimage_terminal.upload_and_display_unsupported_jpeg",
+        "screenshots": [
+            {
+                "filename": "test_tupimage_terminal.upload_and_display_unsupported_jpeg/screenshot-0.png",
+                "index": 0,
+                "description": "Jpeg castles using different ID settings, method=file, jpegs are supposed to be converted"
+            },
+            {
+                "filename": "test_tupimage_terminal.upload_and_display_unsupported_jpeg/screenshot-1.png",
+                "index": 1,
+                "description": "Jpeg castles using different ID settings, method=direct, jpegs are supposed to be converted"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_tupimage_terminal.id_reclaiming",
+        "screenshots": [
+            {
+                "filename": "test_tupimage_terminal.id_reclaiming/screenshot-0.png",
+                "index": 0,
+                "description": "Demo of ID reclaiming, step 255, lines 1 and 4 may start to be overridden with new images from the left"
+            },
+            {
+                "filename": "test_tupimage_terminal.id_reclaiming/screenshot-1.png",
+                "index": 1,
+                "description": "Demo of ID reclaiming, step 256, lines 1 and 4 may start to be overridden with new images from the left"
+            },
+            {
+                "filename": "test_tupimage_terminal.id_reclaiming/screenshot-2.png",
+                "index": 2,
+                "description": "Demo of ID reclaiming, step 261, lines 1 and 4 may start to be overridden with new images from the left"
+            },
+            {
+                "filename": "test_tupimage_terminal.id_reclaiming/screenshot-3.png",
+                "index": 3,
+                "description": "Demo of ID reclaiming, step 300, lines 1 and 4 may start to be overridden with new images from the left"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_tupimage_terminal.id_reclaiming_subspace",
+        "screenshots": [
+            {
+                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-0.png",
+                "index": 0,
+                "description": "Demo of ID reclaiming, smaller subspace, step 4, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
+            },
+            {
+                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-1.png",
+                "index": 1,
+                "description": "Demo of ID reclaiming, smaller subspace, step 5, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
+            },
+            {
+                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-2.png",
+                "index": 2,
+                "description": "Demo of ID reclaiming, smaller subspace, step 1020, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
+            },
+            {
+                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-3.png",
+                "index": 3,
+                "description": "Demo of ID reclaiming, smaller subspace, step 1021, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
+            },
+            {
+                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-4.png",
+                "index": 4,
+                "description": "Demo of ID reclaiming, smaller subspace, step 1100, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_tupimage_terminal.specify_num_columns",
+        "screenshots": [
+            {
+                "filename": "test_tupimage_terminal.specify_num_columns/screenshot-0.png",
+                "index": 0,
+                "description": "The number of cols is specified"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_tupimage_terminal.specify_num_rows",
+        "screenshots": [
+            {
+                "filename": "test_tupimage_terminal.specify_num_rows/screenshot-0.png",
+                "index": 0,
+                "description": "The number of rows is specified"
+            }
+        ],
+        "errors": []
+    }
+]
