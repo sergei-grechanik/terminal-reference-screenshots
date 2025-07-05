@@ -1554,15 +1554,15 @@
         "errors": []
     },
     {
-        "name": "test_tupimage_terminal.upload_and_display_from_file",
+        "name": "test_ikup_terminal.upload_and_display_from_file",
         "screenshots": [
             {
-                "filename": "test_tupimage_terminal.upload_and_display_from_file/screenshot-0.png",
+                "filename": "test_ikup_terminal.upload_and_display_from_file/screenshot-0.png",
                 "index": 0,
                 "description": "Wikipedias and tuxes, using different ID settings, method=file"
             },
             {
-                "filename": "test_tupimage_terminal.upload_and_display_from_file/screenshot-1.png",
+                "filename": "test_ikup_terminal.upload_and_display_from_file/screenshot-1.png",
                 "index": 1,
                 "description": "Wikipedias and tuxes, using different ID settings, method=direct"
             }
@@ -1570,15 +1570,15 @@
         "errors": []
     },
     {
-        "name": "test_tupimage_terminal.upload_and_display_from_image",
+        "name": "test_ikup_terminal.upload_and_display_from_image",
         "screenshots": [
             {
-                "filename": "test_tupimage_terminal.upload_and_display_from_image/screenshot-0.png",
+                "filename": "test_ikup_terminal.upload_and_display_from_image/screenshot-0.png",
                 "index": 0,
                 "description": "Wikipedias and tuxes flipped, using different ID settings, method=file"
             },
             {
-                "filename": "test_tupimage_terminal.upload_and_display_from_image/screenshot-1.png",
+                "filename": "test_ikup_terminal.upload_and_display_from_image/screenshot-1.png",
                 "index": 1,
                 "description": "Wikipedias and tuxes flipped, using different ID settings, method=direct"
             }
@@ -1586,15 +1586,15 @@
         "errors": []
     },
     {
-        "name": "test_tupimage_terminal.upload_and_display_jpeg",
+        "name": "test_ikup_terminal.upload_and_display_jpeg",
         "screenshots": [
             {
-                "filename": "test_tupimage_terminal.upload_and_display_jpeg/screenshot-0.png",
+                "filename": "test_ikup_terminal.upload_and_display_jpeg/screenshot-0.png",
                 "index": 0,
                 "description": "Jpeg castles using different ID settings, method=file"
             },
             {
-                "filename": "test_tupimage_terminal.upload_and_display_jpeg/screenshot-1.png",
+                "filename": "test_ikup_terminal.upload_and_display_jpeg/screenshot-1.png",
                 "index": 1,
                 "description": "Jpeg castles using different ID settings, method=direct"
             }
@@ -1602,15 +1602,15 @@
         "errors": []
     },
     {
-        "name": "test_tupimage_terminal.upload_and_display_unsupported_jpeg",
+        "name": "test_ikup_terminal.upload_and_display_unsupported_jpeg",
         "screenshots": [
             {
-                "filename": "test_tupimage_terminal.upload_and_display_unsupported_jpeg/screenshot-0.png",
+                "filename": "test_ikup_terminal.upload_and_display_unsupported_jpeg/screenshot-0.png",
                 "index": 0,
                 "description": "Jpeg castles using different ID settings, method=file, jpegs are supposed to be converted"
             },
             {
-                "filename": "test_tupimage_terminal.upload_and_display_unsupported_jpeg/screenshot-1.png",
+                "filename": "test_ikup_terminal.upload_and_display_unsupported_jpeg/screenshot-1.png",
                 "index": 1,
                 "description": "Jpeg castles using different ID settings, method=direct, jpegs are supposed to be converted"
             }
@@ -1618,25 +1618,25 @@
         "errors": []
     },
     {
-        "name": "test_tupimage_terminal.id_reclaiming",
+        "name": "test_ikup_terminal.id_reclaiming",
         "screenshots": [
             {
-                "filename": "test_tupimage_terminal.id_reclaiming/screenshot-0.png",
+                "filename": "test_ikup_terminal.id_reclaiming/screenshot-0.png",
                 "index": 0,
                 "description": "Demo of ID reclaiming, step 255, lines 1 and 4 may start to be overridden with new images from the left"
             },
             {
-                "filename": "test_tupimage_terminal.id_reclaiming/screenshot-1.png",
+                "filename": "test_ikup_terminal.id_reclaiming/screenshot-1.png",
                 "index": 1,
                 "description": "Demo of ID reclaiming, step 256, lines 1 and 4 may start to be overridden with new images from the left"
             },
             {
-                "filename": "test_tupimage_terminal.id_reclaiming/screenshot-2.png",
+                "filename": "test_ikup_terminal.id_reclaiming/screenshot-2.png",
                 "index": 2,
                 "description": "Demo of ID reclaiming, step 261, lines 1 and 4 may start to be overridden with new images from the left"
             },
             {
-                "filename": "test_tupimage_terminal.id_reclaiming/screenshot-3.png",
+                "filename": "test_ikup_terminal.id_reclaiming/screenshot-3.png",
                 "index": 3,
                 "description": "Demo of ID reclaiming, step 300, lines 1 and 4 may start to be overridden with new images from the left"
             }
@@ -1644,30 +1644,30 @@
         "errors": []
     },
     {
-        "name": "test_tupimage_terminal.id_reclaiming_subspace",
+        "name": "test_ikup_terminal.id_reclaiming_subspace",
         "screenshots": [
             {
-                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-0.png",
+                "filename": "test_ikup_terminal.id_reclaiming_subspace/screenshot-0.png",
                 "index": 0,
                 "description": "Demo of ID reclaiming, smaller subspace, step 4, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
             },
             {
-                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-1.png",
+                "filename": "test_ikup_terminal.id_reclaiming_subspace/screenshot-1.png",
                 "index": 1,
                 "description": "Demo of ID reclaiming, smaller subspace, step 5, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
             },
             {
-                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-2.png",
+                "filename": "test_ikup_terminal.id_reclaiming_subspace/screenshot-2.png",
                 "index": 2,
                 "description": "Demo of ID reclaiming, smaller subspace, step 1020, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
             },
             {
-                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-3.png",
+                "filename": "test_ikup_terminal.id_reclaiming_subspace/screenshot-3.png",
                 "index": 3,
                 "description": "Demo of ID reclaiming, smaller subspace, step 1021, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
             },
             {
-                "filename": "test_tupimage_terminal.id_reclaiming_subspace/screenshot-4.png",
+                "filename": "test_ikup_terminal.id_reclaiming_subspace/screenshot-4.png",
                 "index": 4,
                 "description": "Demo of ID reclaiming, smaller subspace, step 1100, now even line 2 gets eventually overridden (the corresponding subspace is of size 1020)"
             }
@@ -1675,10 +1675,10 @@
         "errors": []
     },
     {
-        "name": "test_tupimage_terminal.specify_num_columns",
+        "name": "test_ikup_terminal.specify_num_columns",
         "screenshots": [
             {
-                "filename": "test_tupimage_terminal.specify_num_columns/screenshot-0.png",
+                "filename": "test_ikup_terminal.specify_num_columns/screenshot-0.png",
                 "index": 0,
                 "description": "The number of cols is specified"
             }
@@ -1686,10 +1686,10 @@
         "errors": []
     },
     {
-        "name": "test_tupimage_terminal.specify_num_rows",
+        "name": "test_ikup_terminal.specify_num_rows",
         "screenshots": [
             {
-                "filename": "test_tupimage_terminal.specify_num_rows/screenshot-0.png",
+                "filename": "test_ikup_terminal.specify_num_rows/screenshot-0.png",
                 "index": 0,
                 "description": "The number of rows is specified"
             }
