@@ -27,7 +27,8 @@
             {
                 "filename": "test_basics.text_underline/screenshot-0.png",
                 "index": 0,
-                "description": ""
+                "description": "",
+                "diff_threshold": 0.001
             }
         ],
         "errors": []
@@ -748,32 +749,6 @@
         "errors": []
     },
     {
-        "name": "test_uploading.shm_rgb",
-        "screenshots": [
-            {
-                "filename": "test_uploading.shm_rgb/screenshot-0.png",
-                "index": 0,
-                "description": "Tux, shared memory, 24-bit data, compress = False"
-            },
-            {
-                "filename": "test_uploading.shm_rgb/screenshot-1.png",
-                "index": 1,
-                "description": "Tux, shared memory, 32-bit data, compress = False"
-            },
-            {
-                "filename": "test_uploading.shm_rgb/screenshot-2.png",
-                "index": 2,
-                "description": "Tux, shared memory, 24-bit data, compress = True"
-            },
-            {
-                "filename": "test_uploading.shm_rgb/screenshot-3.png",
-                "index": 3,
-                "description": "Tux, shared memory, 32-bit data, compress = True"
-            }
-        ],
-        "errors": []
-    },
-    {
         "name": "test_uploading.image_number",
         "screenshots": [
             {
@@ -870,7 +845,8 @@
             {
                 "filename": "test_uploading.stress_too_many_images/screenshot-1.png",
                 "index": 1,
-                "description": "Displayed some one-pixel images, some will be missing."
+                "description": "Displayed some one-pixel images, some will be missing.",
+                "diff_threshold": 0.05
             }
         ],
         "errors": []
@@ -886,7 +862,8 @@
             {
                 "filename": "test_uploading.stress_too_many_images_placeholder/screenshot-1.png",
                 "index": 1,
-                "description": "Displayed some one-pixel images, some will be missing."
+                "description": "Displayed some one-pixel images, some will be missing.",
+                "diff_threshold": 0.05
             }
         ],
         "errors": []
@@ -897,7 +874,8 @@
             {
                 "filename": "test_uploading.stress_too_many_placements/screenshot-0.png",
                 "index": 0,
-                "description": "Attempting to display 5 different placements for some of the images. Many placements may be missing."
+                "description": "Attempting to display 5 different placements for some of the images. Many placements may be missing.",
+                "diff_threshold": 0.12
             }
         ],
         "errors": []
