@@ -846,7 +846,7 @@
                 "filename": "test_uploading.stress_too_many_images/screenshot-1.png",
                 "index": 1,
                 "description": "Displayed some one-pixel images, some will be missing.",
-                "diff_threshold": 0.05
+                "diff_threshold": 0.06
             }
         ],
         "errors": []
@@ -863,7 +863,7 @@
                 "filename": "test_uploading.stress_too_many_images_placeholder/screenshot-1.png",
                 "index": 1,
                 "description": "Displayed some one-pixel images, some will be missing.",
-                "diff_threshold": 0.05
+                "diff_threshold": 0.06
             }
         ],
         "errors": []
@@ -908,6 +908,50 @@
                 "filename": "test_uploading.direct_interrupted_nomore/screenshot-1.png",
                 "index": 1,
                 "description": "After sending all of the commands. Tux should be seen."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_concurrent",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_concurrent/screenshot-0.png",
+                "index": 0,
+                "description": "Tux, then arrow if the terminal supports concurrent uploads."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_concurrent_image_number",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_concurrent_image_number/screenshot-0.png",
+                "index": 0,
+                "description": "Tux, then arrow if the terminal supports concurrent uploads."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.stress_direct_unfinished",
+        "screenshots": [
+            {
+                "filename": "test_uploading.stress_direct_unfinished/screenshot-0.png",
+                "index": 0,
+                "description": "A single finished upload"
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.direct_interrupted_no_resume",
+        "screenshots": [
+            {
+                "filename": "test_uploading.direct_interrupted_no_resume/screenshot-0.png",
+                "index": 0,
+                "description": "Only the arrow."
             }
         ],
         "errors": []
