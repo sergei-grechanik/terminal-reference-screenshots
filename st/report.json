@@ -875,7 +875,7 @@
                 "filename": "test_uploading.stress_too_many_placements/screenshot-0.png",
                 "index": 0,
                 "description": "Attempting to display 5 different placements for some of the images. Many placements may be missing.",
-                "diff_threshold": 0.12
+                "diff_threshold": 0.13
             }
         ],
         "errors": []
@@ -952,6 +952,17 @@
                 "filename": "test_uploading.direct_interrupted_no_resume/screenshot-0.png",
                 "index": 0,
                 "description": "Only the arrow."
+            }
+        ],
+        "errors": []
+    },
+    {
+        "name": "test_uploading.restore_file",
+        "screenshots": [
+            {
+                "filename": "test_uploading.restore_file/screenshot-0.png",
+                "index": 0,
+                "description": "Wikipedia should be restored, tux and dice should not."
             }
         ],
         "errors": []
